@@ -1,9 +1,9 @@
 function addUser() {
-  number_1 = document.getElementById("number1_name_input").value;
-  number_2 = document.getElementById("number2_name_input").value;
+  player1_name = document.getElementById("player1_name_input").value;
+  player2_name = document.getElementById("player2_name_input").value;
 
-    localStorage.setItem("number_1", number_1);
-    localStorage.setItem("number_2", number_2);
+    localStorage.setItem("player1_name_input", player1_name);
+    localStorage.setItem("player2_name_input", player2_name);
   
     window.location = "game_page.html";
 }
